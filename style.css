@@ -1,0 +1,42 @@
+body, 
+.calculator,
+.display,
+.btnTop,
+.btnFrow,
+.btnSrow,
+.btnTrow,
+.btnFrow {
+    display:flex;
+}
+
+body {
+    justify-content: center;
+}
+
+.calculator {
+    background-color: grey;
+    padding: 10px;
+    margin: 10px;
+    flex-direction: column;
+    align-items: center;
+    width: 240px;
+    border: 2px solid black;
+}
+
+.display {
+    background-color: #11ddffff;
+    padding: 5px;
+    width: 210px;
+    margin: 5px;
+    border: 2px solid black;
+}
+
+.clear, .delete {
+    width: 104px;
+}
+
+button {
+    height: 40px;
+    width: 50px;
+    margin: 2px;
+}
