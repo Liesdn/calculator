@@ -11,32 +11,39 @@ body,
 
 body {
     justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
 }
 
 .calculator {
     background-color: grey;
-    padding: 10px;
+    padding: 20px;
     margin: 10px;
     flex-direction: column;
     align-items: center;
-    width: 240px;
+    width: 350px;
     border: 2px solid black;
 }
 
 .display {
-    background-color: #11ddffff;
+    background-color: #aaffaaff;
     padding: 5px;
-    width: 210px;
+    width: 313px;
+    height: 100px;
     margin: 5px;
     border: 2px solid black;
+    justify-content: end;
+    font-size: 20px;
 }
 
 .clear, .delete {
-    width: 104px;
+    width: 152px;
 }
 
 button {
-    height: 40px;
-    width: 50px;
-    margin: 2px;
+    height: 70px;
+    width: 70px;
+    margin: 6px;
+    font-size: 30px;
 }
